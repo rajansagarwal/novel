@@ -359,14 +359,9 @@ td {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
 .solid {
     border-top: 3px solid #bbb;
-}
-
-@media (max-width: 600px) {
-	.nomobile {
-		display: none;
-	}
 }
 .toc {
 	margin-bottom: -12px !important;
@@ -415,7 +410,6 @@ Subnav {
 
 .p-manifesto {
     line-height: 150%;
-	font-weight: 200;
 }
 
 .refined {

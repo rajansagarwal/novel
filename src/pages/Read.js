@@ -19,18 +19,21 @@ export default function Read() {
                 Just want to read the novel plain and simple? Check out the <a href="https://google.com">Standard PDF Document.</a>
                 <br/>
              <br/>
-             If you're still reading this, I am so glad you stayed! As you continue on this website, you will be introduced to the novel in full, receive continuous updates to the novel and have a more comfortable experience<br/>
+             If you're still reading this, I am so glad you stayed! As you continue on this website, you will be introduced to the novel in full, receive continuous updates and have a more comfortable experience!<br/>
              <br/>
-             <Link to="/">Let's dive right in.</Link>
+             <Link to="/intro" className="roundedcorner">Let's dive right in.</Link>
               </p>
             </Col>
             <Col sm={2}></Col>
           </Row>
           <Row>
+              
             <Col sm={2}></Col>
             <Col sm={8}>
-              <h5 className="manifesto linkheader" style={{fontSize: '25px'}}>Table of Contents</h5>
-              <p className="p-manifesto" style={{fontSize: '20px'}}>
+            <hr className="solid" />
+              <h6 className="p-manifesto" style={{fontSize: '25px'}}>
+                  
+                 <b>Table of Contents</b>
                 <ul>
                     <li>Novel Introduction</li>
                     <li>Part 1
@@ -77,7 +80,7 @@ export default function Read() {
                         
                     </li>
                 </ul>
-              </p>
+              </h6>
             </Col>
             <Col sm={2}></Col>
           </Row>
