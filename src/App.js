@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Home from './pages/Home';
-import Static from './pages/Static';
+import Read from './pages/Read';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
@@ -12,8 +12,8 @@ function App() {
       <Route exact path="/">
         <Home/>
       </Route>
-			<Route exact path="/static">
-        <Static/>
+      <Route exact path="/read">
+        <Read/>
       </Route>
     </div>
     </Router>

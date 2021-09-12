@@ -1,144 +1,75 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
 import "../App.css";
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
     <div className="App">
-      <img src="/accent1.svg" className="accent1" alt="blob-blue"></img>
-      <img src="/accent2.svg" className="accent2" alt="blob-yellow"></img>
 
       <Container>
         <header className="App-header">
           <Col sm={12}>
-            <h2 className="explorehead hey">Run For Hope</h2>
-            <p className="center moving">My 160km Journey</p>
+            <h2 className="explorehead">Breaking Barriers</h2>
           </Col>
           <Row>
             <Col sm={2}></Col>
-            <Col sm={8} className="animate0">
-              <h5 className="manifesto linkheader">The Issue</h5>
+            <Col sm={8}>
+              <h5 className="manifesto linkheader">A Novel About Hope</h5>
               <p className="p-manifesto">
-                As a Canadian, seeing the discoveries of unmarked graves was
-                heartbreaking. On July 12,{" "}
-                <a href="https://globalnews.ca/news/8022971/graves-residential-school-penelakut-island/#:~:text=Comments%20closed.-,Over%20160%20graves%20found%20at%20former%20residential,B.C.%20island%2C%20First%20Nation%20says&text=A%20B.C.%20First%20Nation%20in,residential%20school%20within%20their%20territory.">
-                  160 unmarked graves were discovered
-                </a>
-                . Within the same time period, thousands more were found,
-                symbolizing the treacherous conditions for indigenous families.
-                While investigating further into the issue, I came across{" "}
-                <a href="https://www.thestar.com/local-mississauga/news/2021/07/17/peel-teacher-to-walk-215-km-to-commemorate-unmarked-graves-at-former-residential-schools.html">
-                  David Babcock
-                </a>
-                , a teacher in my school board. Deeply affected by the news, he
-                took it upon himself to hike 215km at local trails. His actions
-                are what supercharged the passion behind my Run For Hope, in
-                which I chose to spend 1 month running 160km and tracking my
-                journey. This, is my run for hope.
+                Breaking Barriers is a novel targeted to raise awareness about autism, from a more gentle stance. In this approach, it was my primary objective to introduce the topic in a familiar, friendly and relatively simple manner. This book is meant for <b>8-13 year olds</b>, with grammar tailored towards complex readers, and content meant for those interested in learning more about autism. The novel features Ryan, an autistic teenager in Ottawa and his journey to become a lawyer in the 21st-century. As he <i>breaks the barriers</i> of societal norms, he builds friendships and new skills along the way.
+             
+             <br/>
+             <br/>
+             <Link to="/read">Read The Novel Here</Link> - An Interactive Reading Experience<br/>
               </p>
             </Col>
             <Col sm={2}></Col>
           </Row>
           <Row>
             <Col sm={2}></Col>
-            <Col sm={8} className="animate0">
-              <h5 className="manifesto linkheader">About</h5>
-              <p className="p-manifesto">
-                My name is <a href="https://heyrajan.com">Rajan Agarwal</a>. I am a 16
-                year old in Ontario interested in social change. My intentions
-                with the Run For Hope were to build a community and raise direct
-                awareness through a unique platform. While running may not be
-                the most conventional and impactful strategy, this initiative
-                reached 7000+ unique viewers and promoted physcial wellness for
-                peers that joined.
-              </p>
-            </Col>
-            <Col sm={2}></Col>
-          </Row>
-          <Row>
-            <Col sm={2}></Col>
-            <Col sm={8} className="animate0">
-              <h5 className="manifesto linkheader">Impact</h5>
-              <p className="p-manifesto">
-                I focused the majority of my impact and awareness on Instagram.
-                Throughout the path, I contacted{" "}
-                <a href="https://staywokeevent.com">communities</a> to share my
-                initiative,{" "}
-                <a href="http://ig.heyrajan.com">made videos consistently</a> marking
-                my journey and ocassionaly posted on{" "}
-                <a href="http://t.heyrajan.com">other social mediums</a>.
-              </p>
-            </Col>
-            <Col sm={2}></Col>
-          </Row>
-          <Row>
-            <Col sm={2}></Col>
-            <Col sm={8} className="animate0">
+            <Col sm={8}>
               <h5 className="manifesto linkheader">Summary</h5>
               <p className="p-manifesto">
-            <iframe className="video" src="https://www.youtube.com/embed/lOFpyvGaCP8" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+                Autism is rarely taught, and when it is, the content is subject to stereotypes and opinions. Ryan Williams, a 17 year old in Ottawa, aims to overcome these social norms during his experience in high school and working in a law practice. His story begins in high school, where Ryan feels out of place in the special-ed class. A special meeting with the principal turns things around, providing him with an eye-opening opportunity in his senior year. Things go well, and Ryan is invited to study law in university. As time flies, his story continues at a law practice, where he is mentored and doubted by a variety of passionate and out-of-the-ordinary coworkers. His story is inspiring to many, but does it last?
               </p>
             </Col>
             <Col sm={2}></Col>
           </Row>
           <Row>
             <Col sm={2}></Col>
-
-            <Col sm={8} className="animate0">
-              <h5 className="manifesto linkheader">Log</h5>
+            <Col sm={8}>
+            <img src="https://cloud-16c6pal7a-hack-club-bot.vercel.app/0bookpost.png" width="100%" alt="book cover in diagonal and repetitive design"/>
+              <h5 className="manifesto linkheader">About The Author</h5>
               <p className="p-manifesto">
-                <table>
-                  <tr>
-                    <th>Week </th>
-                    <th>Distance</th>
-                  </tr>
-                  <tr>
-                    <td>July 22-28</td>
-                    <td>39km</td>
-                  </tr>
-                  <tr>
-                    <td>July 29-August4 </td>
-                    <td>27km</td>
-                  </tr>
-                  <tr>
-                    <td>August 5-11</td>
-                    <td>26km</td>
-                  </tr>
-                  <tr>
-                    <td>August 12-18</td>
-                    <td>28km</td>
-                  </tr>
-                  <tr>
-                    <td>August 19-26</td>
-                    <td>40km</td>
-                  </tr>
-                  <tr>
-                    <td>Total</td>
-                    <td>160km</td>
-                  </tr>
-                </table>
-                <br />
-                <a href="https://docs.google.com/spreadsheets/d/1QIMOCuOiGniQVxIlxLozY7hT9L08TdUEhUgN2zAqbtI/edit?usp=sharing">
-                  View Full Log
-                </a>
+                My name is <a href="https://heyrajan.com">Rajan Agarwal.</a> I am a 16
+                year old in Ontario interested in social change. When writing this novel, I found inspiration and support from a wide variety of sources. Writing a novel is not as scary as the tales depict it to be, but it requires imagination and determination. In my spare time, you will either find me preparing a speech, writing code vigorously or working on a side project that I will over-promote for no reason!
               </p>
             </Col>
-
             <Col sm={2}></Col>
           </Row>
           <Row>
             <Col sm={2}></Col>
-            <Col sm={8} className="animate0">
+            <Col sm={8}>
+              <h5 className="manifesto linkheader">Novel Guide</h5>
+              <p className="p-manifesto">
+                This novel is meant for children aged 8-13. The content of the novel is friendly, and the syntax is tailored towards a younger age category. The novel is broken down into 3 parts, each occuring in different time frames and revolving around different people. The structure of the novel is such that each chapter is in a different perspective, as indicated as the name of the chapter. The purpose was to share multiple perspectives and give reasoning to decisions made throughout the novel.
+              </p>
+            </Col>
+            <Col sm={2}></Col>
+          </Row>
+          <Row>
+            <Col sm={2}></Col>
+            <Col sm={8}>
+            
               <h5 className="manifesto linkheader">Get In Touch</h5>
               <p className="p-manifesto">
-                I would love to share more about my journey, the impact made and
-                what everyone else can do to help. Visit{" "}
+                I would love to get in touch about, well, anything! Visit{" "}
                 <a href="https://heyrajan.com">heyrajan.com</a> to learn more.
                 <br />
                 <br />
                 <hr className="solid" />
-                <br /> Thank you all for your support over the past month. I
-                could not have done it without you.
+                <br /> "Having autism is like a rock. It can be annoying and hard sometimes, but it’s just a tiny small obstacle in the hill of life" - Ryan Williams
               </p>
             </Col>
             <Col sm={2}></Col>
