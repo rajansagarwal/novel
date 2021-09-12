@@ -18,7 +18,7 @@ export default function Intro() {
               <p className="p-manifesto">
               This novel is classified as fiction. The characters and events in the novel are not meant to be taken as depicted.<br/><br/> © Rajan Agarwal 2021, All Rights Reserved
                 <br/><br/>
-                <Link to="/part1" className="roundedcorner">Go ToPart 1</Link><br/>
+                <Link to="/part1" className="roundedcorner">Go To Part 1</Link><br/>
              <br/>
              My name is Rajan Agarwal. I am a 16 year old in Ontario interested in social change. When writing this novel, I found inspiration and support from a wide variety of sources. Writing a novel is not as scary as the tales depict it to be, but it requires imagination and determination. In my spare time, you will either find me preparing a speech, writing code vigorously or working on a side project that I will over-promote for no reason!<br/><br/>
              
