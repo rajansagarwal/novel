@@ -23,8 +23,9 @@ export default function Intro() {
              My name is Rajan Agarwal. I am a 16 year old in Ontario interested in social change. When writing this novel, I found inspiration and support from a wide variety of sources. Writing a novel is not as scary as the tales depict it to be, but it requires imagination and determination. In my spare time, you will either find me preparing a speech, writing code vigorously or working on a side project that I will over-promote for no reason!<br/><br/>
              
              The inspiration behind the novel revolves around awareness. Autism is not a small issue, as a matter of fact, it is one of the most prominent disorders on our planet. When I was younger, I was never truly taught about the impact and root of autism - when someone tried to teach it, opinions and stereotypes flooded the room, which unjustified the importance of this topic. My intentions with this novel were to subtly, yet impactfully mention and describe the cause and impact on Autism, and how <b>it's not a disability, but rather a different ability.</b><br/><br/>
-
+              To learn more, head back to the <Link to="/">home page.</Link>
               </p>
+              
             </Col>
             <Col sm={2}></Col>
           </Row>

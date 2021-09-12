@@ -17,12 +17,12 @@ export default function Chapter4() {
           <Col sm={3}>
 
 
-          <p><Link to="/part1/chapter2" className="roundedcorner">Back to Chapter 2</Link></p>
+          <p><Link to="/part1/chapter3" className="roundedcorner">Back to Chapter 3</Link></p>
           </Col>
           <Col sm={3}></Col>
           <Col sm={3}>
 
-          <p><Link to="/part1/chapter4" className="roundedcorner">Go To Chapter 4</Link></p>
+          <p><Link to="/part1/chapter5" className="roundedcorner">Go To Chapter 5</Link></p>
           </Col>
           <Col sm={2}></Col>
           </Row>
