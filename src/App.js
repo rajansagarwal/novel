@@ -9,10 +9,6 @@ import Chapter1 from './pages/Pt1/Chapter1';
 import Chapter2 from './pages/Pt1/Chapter2';
 import Chapter3 from './pages/Pt1/Chapter3';
 import Chapter4 from './pages/Pt1/Chapter4';
-import Chapter5 from './pages/Pt1/Chapter2';
-import Chapter6 from './pages/Pt1/Chapter2';
-import Chapter7 from './pages/Pt1/Chapter2';
-import Chapter8 from './pages/Pt1/Chapter2';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
