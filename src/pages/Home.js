@@ -17,7 +17,7 @@ export default function Home() {
             <Col sm={8}>
               <h5 className="manifesto linkheader">A Novel About Hope</h5>
               <p className="p-manifesto">
-                Breaking Barriers is a novel targeted to raise awareness about autism, from a more gentle stance. In this approach, it was my primary objective to introduce the topic in a familiar, friendly and relatively simple manner. This book is meant for <b>8-13 year olds</b>, meant for youth that want to learn about autism, in a more friendly way. The novel features Ryan, an autistic teenager in Ottawa and his journey to become a lawyer in the 21st-century. As he <i>breaks the barriers</i> of societal norms, he builds friendships and new skills along the way.
+                Breaking Barriers is a novel targeted to raise awareness about autism, from a more gentle stance. In this approach, it was my primary objective to introduce the topic in a familiar, friendly and relatively simple manner. This book is meant for those <b>between 8 and 13</b>, tailored to youth that want to learn about autism, in a more friendly way. The novel features Ryan, an autistic teenager in Ottawa and his journey to become a lawyer in the 21st-century. As he <i>breaks the barriers</i> of societal norms, he builds friendships and new skills along the way.
              
              <br/>
              <br/>
