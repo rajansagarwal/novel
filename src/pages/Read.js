@@ -16,11 +16,12 @@ export default function Read() {
             <Col sm={2}></Col>
             <Col sm={8}>
               <p className="p-manifesto">
-                Just want to read the novel plain and simple? Check out the <a href="https://google.com">Standard PDF Document.</a>
+                Just want to read the novel plain and simple? Check out the <a href="https://drive.google.com/file/d/1mjfooNxMTl1R9im_zjTfimJRWx3zJ_sI/view?usp=sharing">Standard PDF Document.</a>
                 <br/>
              <br/>
              If you're still reading this, I am so glad you stayed! As you continue on this website, you will be introduced to the novel in full, receive continuous updates and have a more comfortable experience!<br/>
              <br/>
+             Now, please note that this novel is made for 8-13 year olds. If you are older than 13, this novel may be at more of a basic level. In turn, if you are under 8 years old, the grammar and format of this novel might be too complex.<br/><br/>
              <Link to="/intro" className="roundedcorner">Let's dive right in.</Link>
               </p>
             </Col>

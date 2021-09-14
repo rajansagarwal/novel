@@ -3,6 +3,7 @@ import "./App.css";
 import Home from './pages/Home';
 import Read from './pages/Read';
 import Intro from './pages/Intro';
+import Finish from './pages/Finish';
 
 import Part1 from './pages/Part1';
 import Part2 from './pages/Part2';
@@ -36,6 +37,9 @@ import Chapter23 from './pages/Pt3/Chapter23';
 import Chapter24 from './pages/Pt3/Chapter24';
 import Chapter25 from './pages/Pt3/Chapter25';
 import Chapter26 from './pages/Pt3/Chapter26';
+import Chapter27 from './pages/Pt3/Chapter27';
+import Chapter28 from './pages/Pt3/Chapter28';
+import Chapter29 from './pages/Pt3/Chapter29';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -61,6 +65,9 @@ function App() {
       </Route>
       <Route exact path="/intro">
         <Intro/>
+      </Route>
+      <Route exact path="/finish">
+        <Finish/>
       </Route>
 
       <Route exact path="/part1/chapter1">
@@ -142,6 +149,15 @@ function App() {
       </Route>
       <Route exact path="/part3/chapter26">
         <Chapter26/>
+      </Route>
+      <Route exact path="/part3/chapter27">
+        <Chapter27/>
+      </Route>
+      <Route exact path="/part3/chapter28">
+        <Chapter28/>
+      </Route>
+      <Route exact path="/part3/chapter29">
+        <Chapter29/>
       </Route>
 
 

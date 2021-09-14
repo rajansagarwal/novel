@@ -61,6 +61,16 @@ export default function Home() {
           <Row>
             <Col sm={2}></Col>
             <Col sm={8}>
+              <h5 className="manifesto linkheader">Want to make an edit? Give feedback?</h5>
+              <p className="p-manifesto">
+                If you want to make an edit, you're in luck because this novel is <b>open sourced</b>. Check out <a href="l.heyrajan.com/g/novel">l.heyrajan.com/g/novel</a> to get the full code to this novel, or go to our <a href="https://drive.google.com/file/d/1mjfooNxMTl1R9im_zjTfimJRWx3zJ_sI/view?usp=sharing">Standard PDF</a> form for a plain version. Please note that the PDF version is not entirely updated. To make a change, either make a Pull Request on the github repository or send me an email at rajanagarwal.rsa@gmail.com
+              </p>
+            </Col>
+            <Col sm={2}></Col>
+          </Row>
+          <Row>
+            <Col sm={2}></Col>
+            <Col sm={8}>
             
               <h5 className="manifesto linkheader">Get In Touch</h5>
               <p className="p-manifesto">
