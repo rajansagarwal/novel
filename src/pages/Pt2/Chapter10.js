@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-grid-system";
 import "./components.css";
 import { Link } from 'react-router-dom';
 
-export default function Chapter1() {
+export default function Chapter10() {
   return (
     <div className="App">
 
@@ -22,7 +22,7 @@ export default function Chapter1() {
           <Col sm={3}></Col>
           <Col sm={3}>
 
-          <p><Link to="/part2/chapter10" className="roundedcorner">Go To Chapter 10</Link></p>
+          <p><Link to="/part2/chapter11" className="roundedcorner">Go To Chapter 11</Link></p>
           </Col>
           <Col sm={2} className="nomobile"></Col>
           </Row>
